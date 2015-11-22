@@ -1,8 +1,16 @@
+.titre{
+	width:30%;
+	margin-left:0;
+	padding-bottom:50px;
+	
+}
 h1{
+	transform: rotate(-20deg);
 
 }
 
-.menu{
+
+li{
 	display:inline;
 	list-style:none;
 }

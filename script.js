@@ -1,0 +1,1 @@
+$('.titreRond').arctext({radius: 400, dir: -1});
