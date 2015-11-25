@@ -25,29 +25,25 @@ h1{
 	top:0;
 	right: 0;
 	text-align: center;
-	width: 40%;
+	width: 50%;
 	margin-top: 25%;
 
 }
 
 .bon{
-	position: absolute;
-	top:0;
-	left: 0;
-	display: inline-block;
+	float: left;
 	border-radius: 50%;
 	background-color: darkgrey;
-	width: 200px;
-	height:200px;
+	width: 250px;
+	height:250px;
+	-webkit-shape-outside:circle();
+  shape-outside:circle();
 
 }
-.menu{
-	position: absolute;
-	top:0;
-	right: 0;
-	width: 49%;
-	margin: 0;
-}
+
 li{
+	text-align: left;
+	margin: 0;
+	font-size: 20px;
 	list-style:none;
 }
