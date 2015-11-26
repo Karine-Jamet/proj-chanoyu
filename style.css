@@ -34,16 +34,37 @@ h1{
 	float: left;
 	border-radius: 50%;
 	background-color: darkgrey;
-	width: 250px;
-	height:250px;
+	width: 350px;
+	height:350px;
 	-webkit-shape-outside:circle();
   shape-outside:circle();
 
 }
 
+ul li ul{
+	display:none;
+	visibility: hidden;
+	font-size:15px;
+}
+
+ul li:hover ul{
+	visibility: visible;
+	display:block;
+}
+
+ul li ul li{
+	padding-left:10px;
+	font-size:20px;
+}
+
+ul li ul li::before{
+	content:" - ";
+}
+
+
 li{
 	text-align: left;
 	margin: 0;
-	font-size: 20px;
+	font-size: 25px;
 	list-style:none;
 }
