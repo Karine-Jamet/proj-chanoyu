@@ -38,7 +38,23 @@ h1{
 	height:350px;
 	-webkit-shape-outside:circle();
   shape-outside:circle();
+	box-shadow:
+0px 2px 2px 0px rgba(0, 0, 0, 0.5) inset,
+0px 2px 2px 0px rgba(255, 255, 255, 0.5);
 
+}
+
+.fukusa{
+	position:absolute;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	top:70px;
+	left:0;
+	width: 100px;
+	height: 200px;
+	background-color: red; /* Pour les femmes a changer pour les hommes*/
 }
 
 ul li ul{
