@@ -41,9 +41,30 @@ h1{
 
 }
 
+ul li ul{
+	display:none;
+	visibility: hidden;
+	font-size:15px;
+}
+
+ul li:hover ul{
+	visibility: visible;
+	display:block;
+}
+
+ul li ul li{
+	padding-left:10px;
+	font-size:20px;
+}
+
+ul li ul li::before{
+	content:" - ";
+}
+
+
 li{
 	text-align: left;
 	margin: 0;
-	font-size: 20px;
+	font-size: 25px;
 	list-style:none;
 }
