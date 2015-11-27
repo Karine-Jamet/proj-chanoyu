@@ -34,8 +34,8 @@ h1{
 	float: left;
 	border-radius: 50%;
 	background-color: darkgrey;
-	width: 250px;
-	height:250px;
+	width: 350px;
+	height:350px;
 	-webkit-shape-outside:circle();
   shape-outside:circle();
 
