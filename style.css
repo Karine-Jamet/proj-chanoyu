@@ -1,14 +1,19 @@
+/* Taille limite width 1090 px */
+@import url(https://fonts.googleapis.com/css?family=Alegreya+SC:900);
+
 body{
 	margin: 0;
 	width: 100%;
-	height: 100%
-
+	height: 100%;
+	background-image:url("images/tatami.jpg");
+	font-family: 'Alegreya SC', serif;
+	
 }
 .titre{
 	position: fixed;
 	top:0;
 	left: 0;
-	width:300px;;
+	width:300px;
 	height:300px;
 	margin-left:0;
 	border-bottom-right-radius: 100%;
@@ -115,6 +120,11 @@ ul li ul li{
 	font-size:20px;
 }
 
+ul li ul li:hover{
+	text-shadow: 1px 1px grey;	
+	
+}
+
 ul li ul li::before{
 	content:" - ";
 }
@@ -125,6 +135,7 @@ li{
 	margin: 0;
 	font-size: 25px;
 	list-style:none;
+	text-shadow: 1px 1px white;
 
 }
 
@@ -147,6 +158,7 @@ li:hover{
 .mot{
 	display:none;
 	visibility:none;
+	text-shadow: 1px 1px white;
 	
 }
 
