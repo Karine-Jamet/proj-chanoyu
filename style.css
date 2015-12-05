@@ -26,7 +26,7 @@ h1{
 	right: 0;
 	text-align: center;
 	width: 50%;
-	margin-top: 15%;
+	margin-top: 10%;
 	height:100%;
 
 }
@@ -40,7 +40,12 @@ h1{
 	padding-top:70%;
 	-webkit-shape-outside:circle();
   shape-outside:circle(); 	 
-	box-shadow: 0px 2px 10px 6px rgba(255, 255, 255, 0.5) inset;
+	/*box-shadow: 0px 2px 10px 6px rgba(255, 255, 255, 0.5) inset; */
+	margin:10px;
+	background-image:url("images/bon.jpg");
+	background-repeat:no-repeat;
+	background-position : 90% 75%;
+	background-size: 25%;
 
 }
 
@@ -50,43 +55,49 @@ h1{
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
-	top:20%;
+	top:25%;
 	left:0;
 	width: 15%;
-	height: 55%;
-	background-color: red; /* Pour les femmes a changer pour les hommes*/
+	height: 44%;
+	/*background-color: red;*/ 
+}
+
+.fukusa img{
+	width:100%;
+}
+
+
+
+.natsume{
+	position:absolute;
+	top:3%;
+	left:29%;
+	width:15%;
+	border-radius:50%;
+	
+}
+
+.natsume img{
+	width:100%;
 }
 
 .chawan{
 	position:absolute;
-	top:33%;
-	left:14%;
-	width:45%;
-	padding-top:45%;
+	top:25%;
+	left:17%;
+	width:40%;
+	/*padding-top:45%;*/
 	border-radius:50%;
-	background-color:white;
+	/*background-color:white;*/
 	
-}
-.natsume{
-	position:absolute;
-	top:3%;
-	left:28%;
-	width:15%;
-	padding-top:15%;
-	border-radius:50%;
-	background-color:red;
 	
 }
 
-.chashaku{
-	position:absolute;
-	top:33%;
-	left:50%;
-	width:3%;
-	height:70%;
-	background-color:sienna;
-	
+.chawan img{
+	width:100%;
 }
+
+
 
 ul li ul{
 	display:none;
@@ -114,4 +125,233 @@ li{
 	margin: 0;
 	font-size: 25px;
 	list-style:none;
+
 }
+
+li:hover{
+	cursor:pointer;
+	cursor:hand;
+}
+
+/* Légende */
+
+.trait{
+	border-bottom: 2px dotted darkred;
+	width:0;
+	height:10px;
+	left:-15%;
+	position:absolute;
+	
+}
+
+.mot{
+	display:none;
+	visibility:none;
+	
+}
+
+/* Fukusa */
+
+.trait-fukusa{
+	top:40%;
+	transition-property: width;
+	transition-duration: 0s;
+	transition-delay: 0s;
+	width: 0%;
+}
+
+.menu-fukusa:hover .trait-fukusa{
+	transition-property: width;
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	width:21%;
+}
+
+.menu-fukusa:hover .mot-fukusa{
+	display:block;
+	visibility:visible;
+	
+}
+
+.mot-fukusa{
+	position:absolute;
+	top:39%;
+	left:-25%;
+}
+
+
+/* Chawan */
+
+.trait-chawan{
+	top:70%;
+	transition-property: width;
+	transition-duration: 0s;
+	transition-delay: 0s;
+	width: 0%;
+}
+
+.menu-chawan:hover .trait-chawan{
+	transition-property: width;
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	width:37%;
+}
+
+.menu-chawan:hover .mot-chawan{
+	display:block;
+	visibility:visible;
+	
+}
+
+.mot-chawan{
+	position:absolute;
+	top:69%;
+	left:-25%;
+}
+
+/* Bon */
+
+.trait-bon{
+	top:80%;
+	transition-property: width;
+	transition-duration: 0s;
+	transition-delay: 0s;
+	width: 0%;
+}
+
+.menu-bon:hover .trait-bon{
+	transition-property: width;
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	width:32%;
+}
+
+.menu-bon:hover .mot-bon{
+	display:block;
+	visibility:visible;
+	
+}
+
+.mot-bon{
+	position:absolute;
+	top:79%;
+	left:-25%;
+}
+
+/* Chashaku */
+
+.trait-chasha{
+	top:90%;
+	transition-property: width;
+	transition-duration: 0s;
+	transition-delay: 0s;
+	width: 0%;
+}
+
+.menu-chasha:hover .trait-chasha{
+	transition-property: width;
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	width:63%;
+}
+
+.menu-chasha:hover .mot-chasha{
+	display:block;
+	visibility:visible;
+	
+}
+
+.mot-chasha{
+	position:absolute;
+	top:89%;
+	left:-25%;
+}
+
+/* Chasen */
+
+.trait-chasen{
+	top:85%;
+	transition-property: width;
+	transition-duration: 0s;
+	transition-delay: 0s;
+	width: 0%;
+}
+
+.menu-chasen:hover .trait-chasen{
+	transition-property: width;
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	width:52%;
+}
+
+.menu-chasen:hover .mot-chasen{
+	display:block;
+	visibility:visible;
+	
+}
+
+.mot-chasen{
+	position:absolute;
+	top:84%;
+	left:-25%;
+}
+
+/* Chakin */
+
+.trait-chakin{
+	top:65%;
+	transition-property: width;
+	transition-duration: 0s;
+	transition-delay: 0s;
+	width: 0%;
+}
+
+.menu-chakin:hover .trait-chakin{
+	transition-property: width;
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	width:44.5%;
+}
+
+.menu-chakin:hover .mot-chakin{
+	display:block;
+	visibility:visible;
+	
+}
+
+.mot-chakin{
+	position:absolute;
+	top:64%;
+	left:-25%;
+}
+
+/* Natsume */
+
+.trait-natsume{
+	top:15%;
+	transition-property: width;
+	transition-duration: 0s;
+	transition-delay: 0s;
+	width: 0%;
+}
+
+.menu-natsume:hover .trait-natsume{
+	transition-property: width;
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	width:47%;
+}
+
+.menu-natsume:hover .mot-natsume{
+	display:block;
+	visibility:visible;
+	
+}
+
+.mot-natsume{
+	position:absolute;
+	top:14%;
+	left:-25%;
+}
+
+
