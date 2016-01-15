@@ -9,8 +9,7 @@
 	<!-- Javascript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.arctext.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -21,87 +20,110 @@
 </head>
 
 <body>
-	<div class="titre">
-		<h1 class="titreRond">Kaeru fait du thé</h1>
-	</div>
 
-
-	<div class=container>
-		<div class="bon">
-			<div class="fukusa">	<img src='images/fukusa.png'/>
-			</div>
-			<div class="chawan">	<img src='images/chawan.png'/>
-			</div>
-			<div class="natsume">	<img src='images/natsume.png'/>
-			</div>
+	<div id="page-acceuil" class="acceuil page">
+		<div id="titre" class="titre">
+			<h1 class="titreRond">Kaeru fait du thé</h1>
 		</div>
 
-		<div class="menu">
-			<ul>
-				<li>Blog</li>
-				<li>Histoire</li>
-				<li>
-					Ustensiles
-					<ul class= "ustensiles">
-						<li class="menu-fukusa">
-						Fukusa
-							<div class="Legende-fukusa">
-								<div class="trait trait-fukusa"></div>
-								<div class="mot mot-fukusa"><p>Fukusa</p></div>
-							</div>
-						
-						</li>
-						<li class="menu-chawan">Chawan
-							<div class="Legende-chawan">
-								<div class="trait trait-chawan"></div>
-								<div class="mot mot-chawan"><p>Chawan</p></div>
-							</div>
-						</li>
-							
-						<li class="menu-bon">Bon
-							<div class="Legende-bon">
-								<div class="trait trait-bon"></div>
-								<div class="mot mot-bon"><p>Bon</p></div>
-							</div>
-						</li>
-						<li class="menu-chasha">Chashaku
-							<div class="Legende-chasha">
-								<div class="trait trait-chasha"></div>
-								<div class="mot mot-chasha"><p>Chashaku</p></div>
-							</div>
-						</li>
-						<li class="menu-chasen">Chasen
-							<div class="Legende-chasen">
-								<div class="trait trait-chasen"></div>
-								<div class="mot mot-chasen"><p>Chasen</p></div>
-							</div>
-						</li>
-						<li class="menu-chakin">Chakin
-							<div class="Legende-chakin">
-								<div class="trait trait-chakin"></div>
-								<div class="mot mot-chakin"><p>Chakin</p></div>
-							</div>
-						</li>
-						<li class="menu-natsume">Natsume
-							<div class="Legende-natsume">
-								<div class="trait trait-natsume"></div>
-								<div class="mot mot-natsume"><p>Natsume</p></div>
-							</div>
-						</li>
-					</ul>
-				</li>
-				<li>L'hôte</li>
-				<li>L'invité</li>
-				<li>Contact</li>
-			</ul>
+
+		<div class="container">
+			<div class="bon">
+				<div class="fukusa">
+					<img src='images/fukusa.png' />
+				</div>
+				<div class="chawan">
+					<img src='images/chawan.png' />
+				</div>
+				<div class="natsume">
+					<img src='images/natsume.png' />
+				</div>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li>Blog</li>
+					<li>Histoire</li>
+					<li>
+						Ustensiles
+						<ul class="ustensiles">
+							<li class="menu-fukusa">
+								<a href="#page-fukusa">Fukusa</a>
+								<div class="Legende-fukusa">
+									<div class="trait trait-fukusa"></div>
+									<div class="mot mot-fukusa">
+										<p>Fukusa</p>
+									</div>
+								</div>
+
+							</li>
+							<li class="menu-chawan">Chawan
+								<div class="Legende-chawan">
+									<div class="trait trait-chawan"></div>
+									<div class="mot mot-chawan">
+										<p>Chawan</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="menu-bon">Bon
+								<div class="Legende-bon">
+									<div class="trait trait-bon"></div>
+									<div class="mot mot-bon">
+										<p>Bon</p>
+									</div>
+								</div>
+							</li>
+							<li class="menu-chasha">Chashaku
+								<div class="Legende-chasha">
+									<div class="trait trait-chasha"></div>
+									<div class="mot mot-chasha">
+										<p>Chashaku</p>
+									</div>
+								</div>
+							</li>
+							<li class="menu-chasen">Chasen
+								<div class="Legende-chasen">
+									<div class="trait trait-chasen"></div>
+									<div class="mot mot-chasen">
+										<p>Chasen</p>
+									</div>
+								</div>
+							</li>
+							<li class="menu-chakin">Chakin
+								<div class="Legende-chakin">
+									<div class="trait trait-chakin"></div>
+									<div class="mot mot-chakin">
+										<p>Chakin</p>
+									</div>
+								</div>
+							</li>
+							<li class="menu-natsume">Natsume
+								<div class="Legende-natsume">
+									<div class="trait trait-natsume"></div>
+									<div class="mot mot-natsume">
+										<p>Natsume</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li>L'hôte</li>
+					<li>L'invité</li>
+					<li>Contact</li>
+				</ul>
+			</div>
 		</div>
 	</div>
-	
-	<div class="Legende-fukusa">
-		<div class="trait trait-fukusa"></div>
-		<div class="mot mot-fukusa"><p>Fukusa</p></div>
+
+	<div id="page-fukusa" class="page page-second">
+		<div class="container">
+			<h2> Fukusa </h2>
+			<p>Cyprum itidem insulam procul a continenti discretam et portuosam inter municipia crebra urbes duae faciunt claram Salamis et Paphus, altera Iovis delubris altera Veneris templo insignis. tanta autem tamque multiplici fertilitate abundat rerum omnium
+				eadem Cyprus ut nullius externi indigens adminiculi indigenis viribus a fundamento ipso carinae ad supremos usque carbasos aedificet onerariam navem omnibusque armamentis instructam mari committat.</p>
+		</div>
 	</div>
-	
+
 </body>
 
 </html>
