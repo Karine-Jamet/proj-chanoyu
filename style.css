@@ -398,9 +398,19 @@ li:hover{
 
 /* 	Page Fukusa */
 
+.containerFukusa{
+	position: relative;
+	top:0;
+	right: 0;
+	text-align: center;
+	width: 100%;
+	margin-top: 0%;
+	height:100%;
+
+}
+
 #page-fukusa{
 	/*display:none;*/
-
 	border-top:100px solid black ;
 	position: relative;
 	top:0;
@@ -415,9 +425,9 @@ li:hover{
 	transition: all 0.6s ease-in-out;
 }
 
-.fukusaSabaki{
+#fukusaSabaki{
 	float:left;
-	width:200px;
-	height:200px;
+	width:500px;
+	height:500px;
 	background-color:pink;
 }
