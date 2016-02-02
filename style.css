@@ -399,8 +399,8 @@ li:hover{
 /* 	Page Fukusa */
 
 #page-fukusa{
-	display:none;
-	
+	/*display:none;*/
+
 	border-top:100px solid black ;
 	position: relative;
 	top:0;
@@ -421,5 +421,3 @@ li:hover{
 	height:200px;
 	background-color:pink;
 }
-
-
