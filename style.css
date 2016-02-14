@@ -141,28 +141,28 @@ h1{
 
 
 
-ul li ul{
+.menu ul li ul{
 	display:none;
 	visibility: hidden;
 	font-size:15px;
 }
 
-ul li:hover ul{
+.menu ul li:hover ul{
 	visibility: visible;
 	display:block;
 }
 
-ul li ul li{
+.menu ul li ul li{
 	padding-left:10px;
 	font-size:20px;
 }
 
-ul li ul li:hover{
+.menu ul li ul li:hover{
 	text-shadow: 1px 1px grey;
 
 }
 
-ul li ul li::before{
+.menu ul li ul li::before{
 	content:" - ";
 }
 
@@ -407,6 +407,7 @@ li:hover{
 
 /*  Navigation  */
 
+
 .top-nav ul li {
 	color: rgba(255,255,255,0.5);
 	display : inline-block;
@@ -414,15 +415,83 @@ li:hover{
 	font-family : sans-serif;
 	text-shadow: none;
 	margin-left: 20px;
+	z-index:100;
 }
 
 .top-nav{
 	background-color : black;
 	height:100px;
 	padding-top : 30px;
-	
+	text-align : left;
+
 	
 }
+
+.top-nav ul li ul{
+	/* display:none; */
+	position: absolute;
+	top : 52px;
+	left: 185px;
+	text-align: center;
+	display:inline-block;
+	background-color : black;
+	padding-right : 15px;
+	padding-bottom : 20px;
+	padding-top : 30px;
+	width:200px;
+	max-height:0;
+    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:350ms;
+    -moz-transition:350ms;
+    transition:350ms;
+}
+
+.top-nav ul li ul li{
+	margin-left : -30px;
+	display:block;
+	
+
+}
+
+.top-nav ul li:hover ul{
+	position :absolute;
+	top : 52px;
+	left: 185px;
+	text-align: center;
+	display:inline-block;
+	background-color : black;
+	padding-right : 15px;
+	padding-bottom : 20px;
+	padding-top : 30px;
+	max-height:1000px;
+    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
+
+}
+
+.top-nav ul li ul:hover{
+	visibility: visible;
+	display:block;
+
+	
+}
+
+
+.top-nav ul li:hover ul li{
+	display:block;
+}
+
+
+.menu li{
+	text-align: left;
+	margin: 0;
+	font-size: 25px;
+	list-style:none;
+	text-shadow: 1px 1px white;
+	font-family: 'Alegreya SC', serif;
+	
+}
+
 
 /* 	Page */
 
