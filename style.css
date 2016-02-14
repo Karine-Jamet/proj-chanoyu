@@ -17,6 +17,15 @@ html{
 	height: 100%;
 }
 
+.pageText > p {
+	font-family:serif;
+}
+
+.pageText > h2 {
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
 #page-acceuil{
 	position:relative;
 	top:0;
@@ -30,7 +39,7 @@ html{
 	top:0;
 	right: 0;
 	text-align: center;
-	width: 700px;
+	width: 710px;
 	margin-top: 0%;
 	height:100%;
 
@@ -158,14 +167,14 @@ ul li ul li::before{
 }
 
 
-li{
+.menu li{
 	text-align: left;
 	margin: 0;
 	font-size: 25px;
 	list-style:none;
 	text-shadow: 1px 1px white;
 	font-family: 'Alegreya SC', serif;
-
+	
 }
 
 li:hover{
@@ -396,9 +405,29 @@ li:hover{
 }
 
 
-/* 	Page Fukusa */
+/*  Navigation  */
 
-.containerFukusa{
+.top-nav ul li {
+	color: rgba(255,255,255,0.5);
+	display : inline-block;
+	font-size : 20px;
+	font-family : sans-serif;
+	text-shadow: none;
+	margin-left: 20px;
+}
+
+.top-nav{
+	background-color : black;
+	height:100px;
+	padding-top : 30px;
+	
+	
+}
+
+/* 	Page */
+
+.containerPage-second{
+	/*display:*/
 	position: relative;
 	top:0;
 	right: 0;
@@ -409,25 +438,35 @@ li:hover{
 
 }
 
-#page-fukusa{
-	/*display:none;*/
-	border-top:100px solid black ;
+.page-second{
 	position: relative;
 	top:0;
 	left:0 ;
 	width: 100%;
-	padding-top: 10%;
 	height:100%;
 	text-align:justify;
 	margin-left:auto;
 	margin-right:auto;
 	background-image:url("images/tatami.jpg");
 	transition: all 0.6s ease-in-out;
+	overflow: auto;
+}
+
+#page-fukusa{
+		display:none;
+}
+
+#page-histoire{
+		display:none;
+}
+
+#page-hote{
+		display:none;
 }
 
 #fukusaSabaki{
 	float:left;
 	width:500px;
 	height:500px;
-	background-color:pink;
+	border:1px solid black;
 }
