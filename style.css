@@ -414,17 +414,26 @@ li:hover{
 	font-size : 20px;
 	font-family : sans-serif;
 	text-shadow: none;
-	margin-left: 20px;
-	z-index:100;
+	margin-left: 30px;
+	
 }
 
 .top-nav{
+	display:none;
 	background-color : black;
 	height:100px;
 	padding-top : 30px;
 	text-align : left;
+	overflow: default;
 
 	
+}
+
+.top-nav i{
+	float: left;
+	margin-left : 20px;
+	font-size : 30px;
+	color: rgba(255,255,255,0.5);
 }
 
 .top-nav ul li ul{
@@ -457,7 +466,7 @@ li:hover{
 .top-nav ul li:hover ul{
 	position :absolute;
 	top : 52px;
-	left: 185px;
+	left: 185	px;
 	text-align: center;
 	display:inline-block;
 	background-color : black;
@@ -482,28 +491,20 @@ li:hover{
 }
 
 
-.menu li{
-	text-align: left;
-	margin: 0;
-	font-size: 25px;
-	list-style:none;
-	text-shadow: 1px 1px white;
-	font-family: 'Alegreya SC', serif;
-	
-}
-
 
 /* 	Page */
 
 .containerPage-second{
 	/*display:*/
 	position: relative;
-	top:0;
+	top:-100px;
+	padding-top: 100px;
 	right: 0;
 	text-align: center;
 	width: 100%;
+	height:calc(100% - 100px);
 	margin-top: 0%;
-	height:100%;
+
 
 }
 
@@ -512,7 +513,7 @@ li:hover{
 	top:0;
 	left:0 ;
 	width: 100%;
-	height:100%;
+	height:calc(100% - 100px);
 	text-align:justify;
 	margin-left:auto;
 	margin-right:auto;
@@ -523,14 +524,17 @@ li:hover{
 
 #page-fukusa{
 		display:none;
+		height:calc(100% - 100px);
 }
 
 #page-histoire{
 		display:none;
+		height:calc(100% - 100px);
 }
 
 #page-hote{
 		display:none;
+		height:calc(100% - 100px);
 }
 
 #fukusaSabaki{
